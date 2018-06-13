@@ -1,4 +1,34 @@
 * {
-    background: #000 url("../img/background.jpg") no-repeat fixed top;
+
 }
 
+body {
+    /*background: #000 url("../img/271235.jpg") no-repeat fixed top;*/
+    /*background-size: cover;*/
+    background: #000 url('../img/1213318.jpg') no-repeat fixed top;
+    height: 2000px;
+    /*background-color: rgba(5,5,5,0.8);*/
+}
+
+.container-fluid {
+    padding: 0;
+    background-color: rgba(5,5,5,0.6);
+    margin-bottom: 2px;
+}
+
+.jumbotron-fluid {
+    padding: .5em;
+}
+
+#header-container {
+
+}
+
+#left-header {
+    font-family: Mistral, sans-serif;
+    font-size: 2em;
+}
+
+#right-header {
+    float: right;
+}
