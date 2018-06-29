@@ -16,25 +16,27 @@
 <header class="container-fluid">
     <div class="jumbotron-fluid text-light">
         <div class="container text-right" id="header-container">
-            <span class="text-right align-baseline" id="right-header"><a href="#" class="text-light">Best game ever!</a></span>
+            <span class="text-right align-baseline right-header">
+                <a href="#" class="text-light">Best game ever!</a>
+            </span>
         </div>
 
     </div>
 </header>
 <nav class="navbar navbar-expand-md sticky-top container-fluid">
-    <div class="container" id="navbar-container">
+    <div class="container navbar-container" >
         <!-- Logo -->
         <a class="navbar-brand text-light" href="#">AI game</a>
 
         <!-- Toggler -->
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
-                data-target="#main-navbar">
+                data-target=".main-navbar">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <!-- Navbar -->
-        <div class="collapse navbar-collapse" id="main-navbar">
-            <ul class="navbar navbar-nav">
+        <div class="collapse navbar-collapse main-navbar">
+            <ul class="navbar navbar-nav flex-column flex-md-row">
                 <li class="nav-item">
                     <a class="nav-link text-danger" href="#">Login</a>
                 </li>
@@ -84,6 +86,9 @@
         </p>
     </main>
 </div>
+<footer class="container-fluid">
+
+</footer>
 
 
 <!-- jQuery, popper, bootstrap -->
@@ -91,5 +96,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
+<!-- Personal scripts -->
+<script src="js/script.js"></script>
 </body>
 </html>

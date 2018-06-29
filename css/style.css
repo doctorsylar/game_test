@@ -1,24 +1,15 @@
 * {
-
-}
-
-a:hover {
+    padding: 0;
+    margin: 0;
     text-decoration: none;
+    box-sizing: border-box
 }
 
 body {
     background: #000 url('../img/1213318.jpg') no-repeat fixed top;
-    height: 2000px;
-}
-
-@media screen and (max-width: 768px) {
-    #sidebar {
-        display: none;
-    }
 }
 
 .container-fluid {
-    padding: 0;
     background-color: rgba(5,5,5,0.75);
     margin-bottom: 2px;
 }
@@ -27,15 +18,30 @@ body {
     padding: .5em;
 }
 
-#navbar-container {
-    padding: 0 15px;
-}
-
-#right-header {
+.right-header {
     font-family: Mistral, sans-serif;
     font-size: 2em;
+}
+.navbar-container {
+    padding: 0 15px;
+}
+.navbar-container .main-navbar .nav-item {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.navbar-container .main-navbar .nav-item a {
+    display: block;
+}
+.navbar-container .main-navbar .nav-item a:hover {
+    background-color: rgba(0,0,0,0.5);
 }
 
 main {
     height: 1500px;
+}
+
+@media screen and (max-width: 768px){
+    .navbar-container .main-navbar .nav-item {
+        width: 100%;
+    }
 }
