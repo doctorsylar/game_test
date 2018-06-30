@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #000 url('../img/1213318.jpg') no-repeat fixed top;
+    background: #000 url('../../img/1213318.jpg') no-repeat fixed top;
 }
 
 .container-fluid {
